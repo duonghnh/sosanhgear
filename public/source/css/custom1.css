@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/bk.png)
+}
+.logo {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.category {
+    max-width: 100px;
+}
+.row {
+    padding-left:15%;
+    padding-right:15%; 
+}
+.container {
+    padding-left:15%;
+    padding-right:15%;  
+    margin-bottom:20px;
+}
+a {
+    color:black;
+    margin:10px;
+}
+a:hover {
+    text-decoration:none;
+    color:gray;
+}

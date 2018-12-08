@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Http\Controllers;
+use App\Hinh;
+use App\Product;
+use Illuminate\Http\Request;
+
+class PageController extends Controller {
+	public function getIndex() {
+		$hinh = Hinh::all();
+		return view('page.trangchu', compact('hinh'));
+	}
+	public function getSearch(request $req) {
+		$product = product::where('name', 'like', '%' . $req->key . '%')->get();
+		print_r($product);
+		exit;
+		return view('page.search', compact('product'));
+	}
+}
