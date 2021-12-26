@@ -11,7 +11,6 @@
 
 
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
 ## Learning Laravel
 
